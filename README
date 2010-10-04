@@ -1,0 +1,35 @@
+DBIx-SimpleGoBetween version 0.01
+=================================
+
+Super simple DBI instance wrapper, thats intended to act as a quick
+shortcut for small result sets.
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+    # to run extended tests against your mysql database
+    # set the following variables
+    export TEST_HOST='your_target_host'
+    export TEST_DB='your_target_test_database'
+    export TEST_USER='your test user'
+    export TEST_PASSWORD='your test password';
+    # you will also need the following module(s) installed
+     DBI,DBD::mysql,DBIx::BulkLoader::Mysql
+     Not to mention have a working mysql database
+   
+   make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 by Michael Shipper
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.4 or,
+at your option, any later version of Perl 5 you may have available.
+
+
