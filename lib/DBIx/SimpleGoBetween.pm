@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 use Carp qw(croak);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 
 =head1 NAME
@@ -104,7 +104,7 @@ sub new ($) {
 
 =head2 OO interface arguments
 
-All OO interfaces in instance accept the following arguments:
+All OO interfaces in the instance accept the following arguments:
 
   -'sql statement'
    Required argument

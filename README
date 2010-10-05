@@ -12,16 +12,6 @@ To install this module type the following:
    perl Makefile.PL
    make
    make test
-    # to run extended tests against your mysql database
-    # set the following variables
-    export TEST_HOST='your_target_host'
-    export TEST_DB='your_target_test_database'
-    export TEST_USER='your test user'
-    export TEST_PASSWORD='your test password';
-    # you will also need the following module(s) installed
-     DBI,DBD::mysql,DBIx::BulkLoader::Mysql
-     Not to mention have a working mysql database
-   
    make install
 
 COPYRIGHT AND LICENCE
