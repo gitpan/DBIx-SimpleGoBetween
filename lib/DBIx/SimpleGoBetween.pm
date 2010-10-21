@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 use Carp qw(croak);
-$VERSION = '0.02';
+$VERSION = '1.003';
 
 
 =head1 NAME
@@ -345,6 +345,12 @@ sub sql_do {
 =head1 SEE ALSO
 
 DBI HTML::Template DBIx::BulkLoader::Mysql DBIx::Simple
+
+=head1 Source Forge Porject
+
+If you feel this software is useful please donate.
+
+L<DBIx Simple Go Between|https://sourceforge.net/projects/dbix-simplegobe/>
 
 =head1 AUTHOR
 

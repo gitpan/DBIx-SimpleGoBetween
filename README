@@ -1,4 +1,4 @@
-DBIx-SimpleGoBetween version 0.01
+DBIx-SimpleGoBetween 
 =================================
 
 Super simple DBI instance wrapper, thats intended to act as a quick
@@ -13,6 +13,11 @@ To install this module type the following:
    make
    make test
    make install
+
+Source Forge project
+
+If you feel this software is useful please donate!
+https://sourceforge.net/projects/dbix-simplegobe/
 
 COPYRIGHT AND LICENCE
 
